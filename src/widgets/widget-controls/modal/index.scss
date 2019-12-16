@@ -1,0 +1,105 @@
+ .modal-content{
+  padding: 48px;
+  border-radius: 24px 0 24px 24px !important;
+  background-color: #F3F6F9 !important;
+  .input-tag{
+    border: 1px solid #B6B6B6;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    height: 80px;
+    overflow-y: auto;
+    width: 100%;
+  }
+  .modal-header{
+    border: 0;
+    padding: 0 0 40px 0;
+  }
+  .modal-title{
+    color: #353535;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+  .modal-body{
+    padding: 0;
+    h3{
+      color: #353535;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight:400; 
+      line-height: 28px;
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+    p{
+      color: #353535;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 0;
+      &.formLabel{
+        color: #353535;
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 4px;
+      }
+      &.mb-26{
+        margin-bottom: 26px;
+      }
+    }
+    .checkBoxcontainer{
+      margin-bottom: 12px;
+      &.selectAll{
+        margin-bottom: 32px !important;
+      }
+    }
+    input[type=textbox], input[type=text]{
+      background-color: #FFFFFF;
+      border: 1px solid #B6B6B6;
+      border-radius: 4px;
+      height: 40px;
+      margin-bottom: 24px;
+      padding: 8px;
+      width: 100%;
+    }
+  }
+  .modal-footer{
+    border: 0;
+    padding: 72px 0 0 0;
+    button{
+      font-size: 16px;
+      height: 40px;
+      margin: 0;
+      width: 160px;
+      &:last-child{
+        margin-left: 32px;
+      }
+    }
+  }
+  .close {
+    font-size: 0px;
+    background-image: url('../../../assets/close_24.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    opacity: 1;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+  }
+}
+.pl-0{
+  padding-left: 0;
+}
+.hrsTxt{
+  display: block;
+  margin-top: 26px;
+}
+.form-row>.col{
+  margin: 0;
+}
+.pl-0{
+  padding-left: 0;
+}

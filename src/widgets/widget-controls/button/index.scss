@@ -1,0 +1,35 @@
+.custom-btn {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  height: 32px;
+  line-height: 14px;
+  text-align: center;
+  min-width: 150px;
+  width: auto;
+  margin: 10px;
+  &:disabled{
+    background-color: #e7e7e7;
+    color: #b6b6b6;
+    cursor: not-allowed;
+  }
+}
+.primary-btn {
+  background-color: #00c6aa;
+  color: #fff;
+}
+.reset-btn {
+  border: 2px solid #00d6b8;
+  background-color: #ffffff;
+  color: #00d6b8;
+}
+.manage-btn {
+  border: 2px solid #0020c3;
+  background-color: #ffffff;
+  color: #0020c3;
+}
+.disable-btn {
+  background-color: #e7e7e7;
+  color: #b6b6b6;
+  cursor: not-allowed;
+}

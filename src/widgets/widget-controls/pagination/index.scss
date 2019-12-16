@@ -1,0 +1,95 @@
+.paginationWrapper{
+  display: inline-flex;
+  list-style: none;
+  padding: 0 24px;
+  margin-top: 16px;
+  float: right;
+  .pagination {
+    .page-item{
+      &:first-child{
+        margin-right: 8px;
+        .page-link{
+          border: 0;
+          color: #353535;
+          font-family: Roboto;
+          font-size: 12px;
+          height: 24px;
+          line-height: 14px;
+          text-align: center;
+          width: 24px;
+          &:first-child{
+            background-image: url("../../../assets/pagination-arrow.svg");
+            background-position: 7px 6px;
+            background-repeat: no-repeat;
+            background-size: 8px;
+            font-size: 0;
+          }
+        }
+      }
+      .page-link{
+        border: 0;
+        color: #353535;
+        font-family: Roboto;
+        font-size: 12px;
+        height: 24px;
+        line-height: 14px;
+        padding: 5px;
+        text-align: center;
+        width: 24px;
+      }
+      &.active{
+        .page-link{
+          background-color: #5DD0B6;
+          border-radius: 4px;
+          color: #fff;
+        }
+      }
+      &:last-child{
+        margin-left: 8px;
+        .page-link{
+          &:first-child{
+            background-image: url("../../../assets/pagination-arrow.svg");
+            background-position: 7px 6px;
+            background-repeat: no-repeat;
+            background-size: 8px;
+            font-size: 0;
+            transform: rotate(180deg)
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ul.paginationWrapper li{
+  padding: 2px 0 3px;
+  font-size: 12px;
+  font-family: Roboto;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  }
+.paginationWrapper a {
+  color: #353535;
+  font-size: 12px;
+}
+.paginationWrapper .selected{
+  background: #5DD0B6;
+  border-radius: 4px; 
+}
+.paginationWrapper .selected a{
+  color: #fff;
+}
+li.next svg{
+  transform: rotate(180deg);
+}
+li.next{
+  margin-left: 12px;
+}
+li.previous{
+  margin-right: 12px;
+}
+li.next svg path, li.previous svg path{
+  fill: #353535;
+}

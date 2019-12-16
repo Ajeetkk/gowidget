@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+.assign-service {
+  padding: 0 0 40px 0;
+  font-family: "Roboto";
+  background-color: #fff;
+  border: 2px solid #e7e7e7;
+  border-radius: 16px 0 16px 16px;
+  margin: 48px 32px;
+  padding: 0;
+  float: left;
+  .sub-header {
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    height: 96px;
+    text-align: left;
+    margin: 0;
+    h4 {
+      padding: 0 0 0 20px;
+    }
+  }  
+  .searchwrapper {
+    padding: 0 0 0 45px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .bulk-btn {
+    min-width: 110px;
+    font-size: 14px;
+    padding: 0;
+    margin: 0px 3px;
+  }
+  .searchBox {
+    box-sizing: border-box;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #b6b6b6;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 32px 4px 8px;
+    margin-right: 24px;
+  }
+}
+.searchboxWrapper {
+  display: inline-block;
+  margin-right: 24px;
+  position: relative;
+  width: 42%;
+}
+.searchBtn.search-icon {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  height: 34px;
+  svg{
+    path{
+      fill: #b6b6b6;
+    }
+  }
+  .commonGridHeader {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    li {
+      line-height: 28px;
+      &:nth-child(1) {
+        max-width: 85px;
+        min-width: 45px;
+        width: 11%;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 2rem !important;
+        top: -12px;
+      }
+      &:nth-child(2) {
+        max-width: 43%;
+        width: 43%;
+      }
+      &:nth-child(3) {
+        max-width: 30%;
+        width: 30%;
+      }
+      &:nth-child(4) {
+        max-width: 19%;
+        width: 19%;
+      }
+      .checkBoxcontainer{
+        position: relative;
+        top: -5px;
+      }
+    }
+  }  
+  .commonGridScrollable {
+    width: 100%;
+    ul {
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
+      display: flex;
+      li {
+        line-height: 28px;
+        &:nth-child(1) {
+          max-width: 75px;
+          min-width: 45px;
+          width: 15%;
+          vertical-align: middle;
+          text-align: center;
+          padding-left: 2rem !important;
+        }
+        &:nth-child(2) {
+          max-width: 43%;
+          width: 43%
+        }
+        &:nth-child(3) {
+          max-width: 30%;
+          width: 30%;
+          text-align: right !important;
+          padding-right: 25px;
+        }
+        &:nth-child(4) {
+          max-width: 19%;
+          width: 19%;
+        }
+        .checkBoxcontainer{
+          position: relative;
+          top: -5px;
+        }
+      .no-records{
+        width: 100%;
+        max-width: 100%
+      }
+      }
+    &:last-child{
+       border-bottom: none;
+    }
+    }
+  }
+}
+
+.detail-expand {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  overflow: auto;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0 40px 25px 80px;
+  span {
+    background: #eeeeee;
+    padding: 6px 15px;
+    margin: 20px 8px 0;
+    font-size: 14px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+  button {
+    margin-top: 30px;
+    min-width: 85px;
+    font-size: 14px;
+    display: block;
+    margin: 30px 0 5px auto;
+  }
+}
+
+.service-textarea {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 15px 0 15px;
+  margin: 10px 0;
+  width: 100%;
+  min-height: 65px;
+  float: left;
+
+  .detail-expand {
+    border-bottom: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: auto;
+    span {
+      margin: 0 15px 15px 0;
+    }
+  }
+  .rbt{
+    display: inline-block;
+    float: left;
+    .rbt-input-hint-container {
+      .form-control {
+        border: none;
+      &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+      }
+    }
+    
+  }
+}
+
+.details-btn{
+  color: #3B64D6;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 25px;
+  background: none;
+  border: none;
+}
+
+.company-label button {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  background-image: url(/static/media/close_8.762fd1e8.svg);
+  background-position: 4px 4px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  height: 15px;
+  margin: 0;
+  min-width: 16px;
+  position: relative;
+  left: 6px;
+  top: 1px;
+}
+.pagewrapper{
+  float: left
+}
+
+// .checkBoxcontainer input[type=checkbox]:checked + span {
+//   color: #f00;
+//   font-style: normal;
+//   border: 1px solid red;
+// } 
+
+.rbt-token.rbt-token-removeable {
+    background: #eeeeee;
+    padding: 6px 25px 6px 15px;
+    margin: 0px 8px 0;
+    font-size: 14px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+button.close.rbt-close.rbt-token-remove-button {
+    top: -1px;
+    position: relative;
+    width: 8px;
+    height: 8px;
+    right: -8px;
+    font-size: 20px;
+    background: none;
+}
+.form-control.rbt-input-multi.rbt-input{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.rbt .rbt-input-hint-container .rbt-input-main {
+  width: 50px !important;
+    height: 30px;
+}
+.rbt-input-hint-container{
+  float: left;
+}
+.searchBtn.search-icon {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    height: 34px;
+}
+.edit-company-popup .rbt-token.rbt-token-removeable{
+  display: none;
+}
+
+.no-records{
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: left !important;
+}
+.commonGridHeader li:nth-child(3), .commonGridScrollable ul li:nth-child(3){
+  text-align: right;
+}
+.service-textarea .dropdown-menu {
+  min-width: 300px;
+}
+.assign-service-view{
+  margin-top: 20px;
+}
+
+.assign-service .checkBoxcontainer {
+  position: relative;
+  top: -5px;
+}
+.details-btn .collapseBtn svg {
+  width: 8px !important;
+  margin-left: 3px;
+}

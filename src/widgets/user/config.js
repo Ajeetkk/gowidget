@@ -1,0 +1,33 @@
+const DefaultStrings = {
+    PageSize: 50,
+    Page: 1,
+    SortActive: '+IsApproved,+DisplayName',
+    SortInvite: '+Email',
+    Save: "Save",
+    Cancel: "Cancel",
+    Yes: "Yes",
+    No: "No",
+    Invite: "Invite",
+    Export: "Export",
+    Assign: "Assign",
+    ActiveTab: "Active",
+    InvitedTab: "Invited",
+    AppName: "Go! Manage",
+    ModuleName: "Go! Manage Clever",
+    Deactivate: "Deactivate",
+    Reinvoke: "Reinvoke",
+    Resend: "Resend",
+    Invite: "Invite",
+    Export: "Export",
+    Role: "Role",
+    DeactivateHead: "Deactivate user",
+    RevokeHead: "Reinvoke invitation",
+    ResendHead: "Resend invitation",
+    InviteUserHead: "Invite user",
+    ExportUserHead: "Export user details",
+    AssignRoleHead: "Assign role",
+    AssignRole: 'Assign Role',
+    SucessCode: 200
+};
+
+export default DefaultStrings;
